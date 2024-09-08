@@ -102,7 +102,7 @@ function Navbar() {
         Search
         <FontAwesomeIcon
           icon={faMagnifyingGlass}
-          className="text-gray-800 block text-base lg:hidden"
+          className="text-gray-800 block text-sm lg:hidden"
         />
       </Link>
 
