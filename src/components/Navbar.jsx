@@ -97,10 +97,10 @@ function Navbar() {
       {/* Implementing search icon for mobile devices */}
       <Link
         to={"/search"}
-        className="text-xs flex gap-2 items-center justify-center text-gray-800 lg:hidden"
+        className="text-sm flex gap-2 items-center justify-center text-gray-800 lg:hidden"
       >
         Search
-        <FontAwesomeIcon icon={faMagnifyingGlass} className="text-sm" />
+        <FontAwesomeIcon icon={faMagnifyingGlass} />
       </Link>
 
       {/* For laptop & other devices */}
