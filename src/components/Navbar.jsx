@@ -96,6 +96,7 @@ function Navbar() {
 
       {/* Implementing search icon for mobile devices */}
       <Link to={"/search"}>
+        Search
         <FontAwesomeIcon
           icon={faMagnifyingGlass}
           className="text-gray-800 block lg:hidden"
