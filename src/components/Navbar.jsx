@@ -95,7 +95,7 @@ function Navbar() {
       </div>
 
       {/* Implementing search icon for mobile devices */}
-      <Link to={"/search"}>
+      <Link to={"/search"} className="text-xs">
         Search
         <FontAwesomeIcon
           icon={faMagnifyingGlass}
