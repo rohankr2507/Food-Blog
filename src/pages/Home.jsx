@@ -28,7 +28,7 @@ const Home = () => {
 
   if (posts.length == 0) {
     return (
-      <div className="container flex justify-center items-center bg-gradient-to-br from-cyan-50 to-pink-50 px-16 py-64 lg:px-24 lg:py-80">
+      <div className="container flex justify-center items-center bg-gradient-to-br from-cyan-50 to-pink-50 px-16 py-96 lg:px-24 lg:py-80">
         <ReactLoading type="spin" color="#ce93d8" />
       </div>
     );
