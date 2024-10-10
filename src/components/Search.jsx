@@ -82,7 +82,7 @@ const Search = () => {
               </li>
             ))
           ) : (
-            <li>No results found...</li>
+            <li className="w-full text-center">No results found...</li>
           )}
         </ul>
       </div>
